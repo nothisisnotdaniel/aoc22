@@ -20,3 +20,12 @@ Tutorial on Development Containers: https://code.visualstudio.com/docs/devcontai
 
 Docker Desktop: https://www.docker.com/products/docker-desktop/
 
+Extension for creating swift projects: https://marketplace.visualstudio.com/items?itemName=cgrevisse.swift-project-creation
+
+## How to execute
+
+Once you have the development container up and running you can execute the days using the following command in the shell:
+
+```Shell
+root@aaaaca15bb66:/workspaces/AdventOfCode# swift run AOC22 day:1 filename:input.txt
+```

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug AOC22",
+            "program": "${workspaceFolder:AdventOfCode}/.build/debug/AOC22",
+            "args": [],
+            "cwd": "${workspaceFolder:AdventOfCode}",
+            "preLaunchTask": "swift: Build Debug AOC22"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release AOC22",
+            "program": "${workspaceFolder:AdventOfCode}/.build/release/AOC22",
+            "args": [],
+            "cwd": "${workspaceFolder:AdventOfCode}",
+            "preLaunchTask": "swift: Build Release AOC22"
+        }
+    ]
+}
