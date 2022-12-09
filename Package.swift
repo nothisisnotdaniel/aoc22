@@ -15,6 +15,8 @@ let package = Package(
 			exclude: [
 				"Day 1/Resources/input.txt",
 				"Day 1/Resources/test.txt",
+				"Day 2/Resources/input.txt",
+				"Day 2/Resources/test.txt",
 			])
 	]
 )

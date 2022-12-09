@@ -6,6 +6,7 @@ var parsedArguments = argumentParser.parse(arguments: arguments)
 
 var days = Dictionary<String, Day>()
 days["1"] = Day1(withParser: ElfParser())
+days["2"] = Day2(withStartegyGuidParser: StrategyGuideParser(), withActualStartegyGuidParser: ActualStrategyGuideParser())
 
 let runner = DayRunner(withDays: days)
 let result = runner.run()
