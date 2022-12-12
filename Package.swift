@@ -17,6 +17,8 @@ let package = Package(
 				"Day 1/Resources/test.txt",
 				"Day 2/Resources/input.txt",
 				"Day 2/Resources/test.txt",
+				"Day 3/Resources/test.txt",
+				"Day 3/Resources/input.txt",
 			])
 	]
 )
